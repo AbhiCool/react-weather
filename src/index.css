@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.weatherForm {
+  background: url('../public/images/sky.jpg') center no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.weatherAppTitle {
+  color: rgb(76, 151, 122);
+  margin-bottom: 20px;
+}
+.weatherFormCityInput {
+  border-radius: 15px;
+  text-align: center;
+}
+.weatherFormSubmitButton {
+  margin-top: 20px;
+} 
+.weatherInfo {
+  min-width: 320px;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.currentTemp {
+  font-size: 40px;
+}
+.errorMsg {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.moreWeatherInfo {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  background: lightgrey;
+  border-radius: 15px;
+}
